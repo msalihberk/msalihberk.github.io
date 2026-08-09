@@ -112,47 +112,63 @@
             <a href="#" class="text-base font-mono font-semibold text-white hover:text-brand transition flex items-center gap-2">
                 <span class="text-brand">&gt;</span> msalihberk<span class="animate-pulse text-brand">_</span>
             </a>
-            <div class="flex items-center gap-4 text-sm font-medium">
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center gap-4 text-sm font-medium">
                 <a href="#about" class="text-slate-400 hover:text-white transition">About</a>
                 <a href="#research" class="text-slate-400 hover:text-white transition">Research</a>
                 <a href="#projects" class="text-slate-400 hover:text-white transition">Projects</a>
                 <a href="#contact" class="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-white rounded-lg border border-slate-700 transition text-xs font-mono">Contact</a>
             </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button id="mobile-menu-btn" aria-label="Toggle Menu" class="md:hidden text-slate-400 hover:text-white focus:outline-none p-2">
+                <i class="fa-solid fa-bars text-xl" id="menu-icon"></i>
+            </button>
         </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden md:hidden border-b border-borderBg bg-darkBg px-4 pt-2 pb-4 space-y-3 font-medium text-sm">
+        <a href="#about" class="mobile-link block text-slate-400 hover:text-white transition py-1">About</a>
+        <a href="#research" class="mobile-link block text-slate-400 hover:text-white transition py-1">Research</a>
+        <a href="#projects" class="mobile-link block text-slate-400 hover:text-white transition py-1">Projects</a>
+        <a href="#contact" class="mobile-link inline-block px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-white rounded-lg border border-slate-700 transition text-xs font-mono">Contact</a>
     </div>
 </nav>
 
 <!-- Hero Section -->
-<section class="pt-32 pb-16 border-b border-borderBg/50">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 space-y-6">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-slate-800 bg-slate-900/80 text-slate-400 text-xs font-mono">
-            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-            Student at Baykar Science High School
+<section class="pt-28 sm:pt-32 pb-12 sm:pb-16 border-b border-borderBg/50">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 space-y-5 sm:space-y-6">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-slate-800 bg-slate-900/80 text-slate-400 text-xs font-mono max-w-full">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 shrink-0"></span>
+            <span class="truncate">Student at Baykar Science High School</span>
         </div>
 
-        <h1 class="text-4xl sm:text-5xl font-bold text-white tracking-tight leading-none">
+        <h1 class="text-3xl sm:text-5xl font-bold text-white tracking-tight leading-tight">
             Mustafa Salih Berk
         </h1>
 
-        <p class="text-lg sm:text-xl text-brand font-mono font-medium">
+        <p class="text-base sm:text-xl text-brand font-mono font-medium leading-normal">
             Software Engineer • Cybersecurity Researcher • AI Enthusiast
         </p>
 
-        <p class="text-slate-400 max-w-2xl text-base leading-relaxed">
+        <p class="text-slate-400 max-w-2xl text-sm sm:text-base leading-relaxed">
             Building secure software, researching intelligent systems, and developing future-proof technologies with a focus on systems programming, artificial intelligence, and cybersecurity.
         </p>
 
-        <div class="flex flex-wrap gap-3 pt-4">
-            <a href="https://github.com/msalihberk" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white text-sm font-medium rounded-lg border border-slate-700 transition flex items-center gap-2">
+        <!-- Social / Action Buttons -->
+        <div class="flex flex-col sm:flex-row sm:flex-wrap gap-2.5 sm:gap-3 pt-2 sm:pt-4">
+            <a href="https://github.com/msalihberk" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white text-sm font-medium rounded-lg border border-slate-700 transition flex items-center justify-center sm:justify-start gap-2">
                 <i class="fa-brands fa-github"></i> GitHub
             </a>
-            <a href="https://medium.com/@msalihberk" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white text-sm font-medium rounded-lg border border-slate-700 transition flex items-center gap-2">
+            <a href="https://medium.com/@msalihberk" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white text-sm font-medium rounded-lg border border-slate-700 transition flex items-center justify-center sm:justify-start gap-2">
                 <i class="fa-brands fa-medium"></i> Technical Articles
             </a>
-            <a href="https://x.com/msalihberkk" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white text-sm font-medium rounded-lg border border-slate-700 transition flex items-center gap-2">
+            <a href="https://x.com/msalihberkk" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white text-sm font-medium rounded-lg border border-slate-700 transition flex items-center justify-center sm:justify-start gap-2">
                 <i class="fa-brands fa-x-twitter"></i> Follow on X
             </a>
-            <a href="mailto:msalihberk@proton.me" class="px-4 py-2 bg-brand text-black font-semibold text-sm rounded-lg hover:opacity-90 transition flex items-center gap-2">
+            <a href="mailto:msalihberk@proton.me" class="w-full sm:w-auto px-4 py-2 bg-brand text-black font-semibold text-sm rounded-lg hover:opacity-90 transition flex items-center justify-center sm:justify-start gap-2">
                 <i class="fa-solid fa-envelope"></i> Email Me
             </a>
         </div>
@@ -160,12 +176,12 @@
 </section>
 
 <!-- Main Content Container -->
-<main class="max-w-5xl mx-auto px-4 sm:px-6 py-16 space-y-20">
+<main class="max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16 space-y-12 sm:space-y-20">
 
     <!-- About & Core Focus Grid -->
-    <section id="about" class="grid md:grid-cols-3 gap-8 scroll-mt-24">
+    <section id="about" class="grid md:grid-cols-3 gap-6 sm:gap-8 scroll-mt-24">
         <div class="md:col-span-2 space-y-4">
-            <h2 class="text-xl font-bold text-white flex items-center gap-2">
+            <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
                 <i class="fa-solid fa-terminal text-brand text-sm"></i> About
             </h2>
             <p class="text-slate-300 leading-relaxed text-sm">
@@ -175,30 +191,32 @@
                 Currently expanding my domain knowledge through Harvard’s CS50x coursework, autonomous system dynamics, and security analysis of complex software ecosystems.
             </p>
 
-            <div class="pt-4">
+            <div class="pt-2 sm:pt-4">
                 <h3 class="text-xs font-mono font-semibold text-slate-500 uppercase tracking-wider mb-3">Tech Stack & Tools</h3>
-                <img src="https://skillicons.dev/icons?i=python,go,laravel,php,js,cs,unity,linux,git,kali" alt="Tech Stack" class="h-10" />
+                <div class="overflow-x-auto pb-2">
+                    <img src="https://skillicons.dev/icons?i=python,go,laravel,php,js,cs,unity,linux,git,kali" alt="Tech Stack" class="h-9 sm:h-10 max-w-none" />
+                </div>
             </div>
         </div>
 
         <!-- Focus Card -->
         <div class="p-5 bg-cardBg border border-borderBg rounded-xl space-y-3">
             <h3 class="text-sm font-bold text-white uppercase tracking-wider font-mono text-brand">Core Domains</h3>
-            <ul class="space-y-2 text-xs text-slate-300">
-                <li class="flex items-start gap-2">
-                    <i class="fa-solid fa-shield-halved text-slate-500 pt-0.5"></i>
+            <ul class="space-y-2.5 text-xs text-slate-300">
+                <li class="flex items-start gap-2.5">
+                    <i class="fa-solid fa-shield-halved text-slate-500 pt-0.5 shrink-0"></i>
                     <span><strong>Cybersecurity:</strong> Vulnerability research & defensive architectures.</span>
                 </li>
-                <li class="flex items-start gap-2">
-                    <i class="fa-solid fa-brain text-slate-500 pt-0.5"></i>
+                <li class="flex items-start gap-2.5">
+                    <i class="fa-solid fa-brain text-slate-500 pt-0.5 shrink-0"></i>
                     <span><strong>Artificial Intelligence:</strong> Machine learning models & intelligent automation.</span>
                 </li>
-                <li class="flex items-start gap-2">
-                    <i class="fa-solid fa-plane-up text-slate-500 pt-0.5"></i>
+                <li class="flex items-start gap-2.5">
+                    <i class="fa-solid fa-plane-up text-slate-500 pt-0.5 shrink-0"></i>
                     <span><strong>Autonomous Systems:</strong> UAV flight control dynamics & simulations.</span>
                 </li>
-                <li class="flex items-start gap-2">
-                    <i class="fa-solid fa-code text-slate-500 pt-0.5"></i>
+                <li class="flex items-start gap-2.5">
+                    <i class="fa-solid fa-code text-slate-500 pt-0.5 shrink-0"></i>
                     <span><strong>Systems Development:</strong> Python, Go, and Laravel frameworks.</span>
                 </li>
             </ul>
@@ -207,17 +225,17 @@
 
     <!-- Featured Research Section -->
     <section id="research" class="scroll-mt-24">
-        <a href="https://infosecwriteups.com/gemini-app-logical-lockscreen-bypass-9e7da290ea06" target="_blank" rel="noopener noreferrer" class="block p-6 bg-cardBg border border-borderBg rounded-xl space-y-4 hover:border-brand/50 hover:bg-slate-800/50 transition cursor-pointer group">
-            <div class="flex items-center justify-between">
-                <span class="text-xs font-mono text-emerald-400 bg-emerald-950/50 border border-emerald-800/50 px-2.5 py-1 rounded">Vulnerability Disclosure</span>
-                <span class="text-xs text-slate-500 font-mono group-hover:text-slate-300 transition">Google VRP</span>
+        <a href="https://infosecwriteups.com/gemini-app-logical-lockscreen-bypass-9e7da290ea06" target="_blank" rel="noopener noreferrer" class="block p-5 sm:p-6 bg-cardBg border border-borderBg rounded-xl space-y-4 hover:border-brand/50 hover:bg-slate-800/50 transition cursor-pointer group">
+            <div class="flex items-center justify-between gap-2">
+                <span class="text-[11px] sm:text-xs font-mono text-emerald-400 bg-emerald-950/50 border border-emerald-800/50 px-2.5 py-1 rounded">Vulnerability Disclosure</span>
+                <span class="text-xs text-slate-500 font-mono group-hover:text-slate-300 transition shrink-0">Google VRP</span>
             </div>
             <div class="space-y-2">
-                <h3 class="text-lg font-bold text-white group-hover:text-brand transition flex items-center gap-2">
-                    Gemini Security Research: Lock-Screen Bypass
-                    <i class="fa-solid fa-arrow-up-right-from-square text-xs opacity-0 group-hover:opacity-100 transition"></i>
+                <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-brand transition flex items-center justify-between sm:justify-start gap-2">
+                    <span>Gemini Security Research: Lock-Screen Bypass</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-xs opacity-70 sm:opacity-0 group-hover:opacity-100 transition shrink-0"></i>
                 </h3>
-                <p class="text-slate-400 text-sm leading-relaxed">
+                <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
                     Technical analysis of a logical lock-screen bypass vulnerability discovered in the Google Gemini application and responsibly disclosed through Google's Vulnerability Reward Program.
                 </p>
             </div>
@@ -230,8 +248,8 @@
     </section>
 
     <!-- Projects Grid -->
-    <section id="projects" class="space-y-6 scroll-mt-24">
-        <h2 class="text-xl font-bold text-white flex items-center gap-2">
+    <section id="projects" class="space-y-4 sm:space-y-6 scroll-mt-24">
+        <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
             <i class="fa-solid fa-folder-closed text-brand text-sm"></i> Featured Projects
         </h2>
 
@@ -242,7 +260,7 @@
                     <div class="flex items-center justify-between">
                         <span class="font-mono text-sm font-bold text-white group-hover:text-brand transition flex items-center gap-2">
                             ShadowLab
-                            <i class="fa-solid fa-arrow-up-right-from-square text-xs opacity-0 group-hover:opacity-100 transition"></i>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-xs opacity-70 sm:opacity-0 group-hover:opacity-100 transition"></i>
                         </span>
                         <i class="fa-brands fa-github text-slate-500 group-hover:text-white transition"></i>
                     </div>
@@ -261,7 +279,7 @@
                     <div class="flex items-center justify-between">
                         <span class="font-mono text-sm font-bold text-white group-hover:text-brand transition flex items-center gap-2">
                             Prox CLI
-                            <i class="fa-solid fa-arrow-up-right-from-square text-xs opacity-0 group-hover:opacity-100 transition"></i>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-xs opacity-70 sm:opacity-0 group-hover:opacity-100 transition"></i>
                         </span>
                         <i class="fa-brands fa-github text-slate-500 group-hover:text-white transition"></i>
                     </div>
@@ -277,13 +295,13 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="scroll-mt-24 p-8 bg-cardBg border border-borderBg rounded-xl text-center space-y-4">
-        <h2 class="text-2xl font-bold text-white">Get In Touch</h2>
-        <p class="text-slate-400 text-sm max-w-md mx-auto">
+    <section id="contact" class="scroll-mt-24 p-6 sm:p-8 bg-cardBg border border-borderBg rounded-xl text-center space-y-4">
+        <h2 class="text-xl sm:text-2xl font-bold text-white">Get In Touch</h2>
+        <p class="text-slate-400 text-xs sm:text-sm max-w-md mx-auto">
             Feel free to reach out for research collaborations, security inquiries, or software projects.
         </p>
         <div class="pt-2">
-            <a href="mailto:msalihberk@proton.me" class="inline-flex items-center gap-2 px-6 py-3 bg-brand text-black font-semibold text-sm rounded-lg hover:opacity-90 transition font-mono">
+            <a href="mailto:msalihberk@proton.me" class="inline-flex items-center justify-center gap-2 px-5 sm:px-6 py-3 bg-brand text-black font-semibold text-xs sm:text-sm rounded-lg hover:opacity-90 transition font-mono w-full sm:w-auto">
                 <i class="fa-solid fa-envelope"></i> msalihberk@proton.me
             </a>
         </div>
@@ -292,9 +310,36 @@
 </main>
 
 <!-- Footer -->
-<footer class="border-t border-borderBg/50 py-8 text-center text-xs text-slate-600 font-mono">
+<footer class="border-t border-borderBg/50 py-8 text-center text-xs text-slate-600 font-mono px-4">
     <p>&copy; 2026 Mustafa Salih Berk. Built with Tailwind CSS.</p>
 </footer>
+
+<!-- JavaScript for Mobile Menu Toggle -->
+<script>
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuIcon = document.getElementById('menu-icon');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+        if (mobileMenu.classList.contains('hidden')) {
+            menuIcon.classList.remove('fa-xmark');
+            menuIcon.classList.add('fa-bars');
+        } else {
+            menuIcon.classList.remove('fa-bars');
+            menuIcon.classList.add('fa-xmark');
+        }
+    });
+
+    mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            menuIcon.classList.remove('fa-xmark');
+            menuIcon.classList.add('fa-bars');
+        });
+    });
+</script>
 
 </body>
 </html>
