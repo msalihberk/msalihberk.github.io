@@ -118,6 +118,7 @@
                 <a href="#about" class="text-slate-400 hover:text-white transition">About</a>
                 <a href="#research" class="text-slate-400 hover:text-white transition">Research</a>
                 <a href="#projects" class="text-slate-400 hover:text-white transition">Projects</a>
+                <a href="#recognition" class="text-slate-400 hover:text-white transition">Recognition</a>
                 <a href="#contact" class="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-white rounded-lg border border-slate-700 transition text-xs font-mono">Contact</a>
             </div>
 
@@ -133,6 +134,7 @@
         <a href="#about" class="mobile-link block text-slate-400 hover:text-white transition py-1">About</a>
         <a href="#research" class="mobile-link block text-slate-400 hover:text-white transition py-1">Research</a>
         <a href="#projects" class="mobile-link block text-slate-400 hover:text-white transition py-1">Projects</a>
+        <a href="#recognition" class="mobile-link block text-slate-400 hover:text-white transition py-1">Recognition</a>
         <a href="#contact" class="mobile-link inline-block px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-white rounded-lg border border-slate-700 transition text-xs font-mono">Contact</a>
     </div>
 </nav>
@@ -265,11 +267,16 @@
                         <i class="fa-brands fa-github text-slate-500 group-hover:text-white transition"></i>
                     </div>
                     <p class="text-slate-400 text-xs leading-relaxed">
-                        Modular, Python-based Command-and-Control (C2) framework designed for cybersecurity research.
+                        Modular, Python-based Command-and-Control (C2) framework designed for cybersecurity research, socket communication, and payload management.
                     </p>
                 </div>
-                <div class="flex gap-2 text-[10px] font-mono text-slate-500 pt-2 border-t border-borderBg/50">
-                    <span>Python</span> • <span>Networking</span> • <span>Security</span>
+                <div class="space-y-2 pt-2 border-t border-borderBg/50">
+                    <div class="inline-flex items-center gap-1.5 text-[10px] font-mono text-amber-400 bg-amber-950/40 border border-amber-800/40 px-2 py-0.5 rounded">
+                        <i class="fa-solid fa-newspaper text-[9px]"></i> Featured in Atıl Samancıoğlu's Newsletter
+                    </div>
+                    <div class="flex gap-2 text-[10px] font-mono text-slate-500">
+                        <span>Python</span> • <span>Networking</span> • <span>C2 Architecture</span>
+                    </div>
                 </div>
             </a>
 
@@ -292,6 +299,42 @@
                 </div>
             </a>
         </div>
+    </section>
+
+    <!-- Press & Recognition Section -->
+    <section id="recognition" class="space-y-4 sm:space-y-6 scroll-mt-24">
+        <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
+            <i class="fa-solid fa-award text-brand text-sm"></i> Press & Media Recognition
+        </h2>
+
+        <a href="https://atilsamancioglu.com/2026-haziran-ogrenci-basarilari/" target="_blank" rel="noopener noreferrer" class="block p-5 sm:p-6 bg-cardBg border border-borderBg rounded-xl space-y-4 hover:border-brand/50 hover:bg-slate-800/50 transition cursor-pointer group">
+            <div class="flex items-center justify-between gap-2">
+                <span class="text-[11px] sm:text-xs font-mono text-sky-400 bg-sky-950/50 border border-sky-800/50 px-2.5 py-1 rounded">Feature Spotlight</span>
+                <span class="text-xs text-slate-500 font-mono group-hover:text-slate-300 transition shrink-0">June 2026</span>
+            </div>
+
+            <div class="space-y-3">
+                <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-brand transition flex items-center justify-between sm:justify-start gap-2">
+                    <span>Atıl Samancıoğlu — Monthly Student Achievements Bulletin</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-xs opacity-70 sm:opacity-0 group-hover:opacity-100 transition shrink-0"></i>
+                </h3>
+
+                <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+                    ShadowLab was featured in prominent cybersecurity instructor Atıl Samancıoğlu's monthly student success newsletter, highlighting the architecture of the custom C2 framework, socket programming implementation, and socket/encryption techniques.
+                </p>
+
+                <!-- Quote Block -->
+                <blockquote class="border-l-2 border-brand/60 pl-3.5 py-1 text-slate-300 text-xs sm:text-sm italic bg-slate-900/40 rounded-r">
+                    "Mustafa Salih'in siber güvenlikle ilgilenen öğrencilerin kesinlikle ilgisini çekecek süper bir projesi GitHub'da yayınlandı! Proje genel olarak bir control & command projesi ve içinde builder, encrypter, shell yönetimi gibi fonksiyonlar bulunuyor..."
+                </blockquote>
+            </div>
+
+            <div>
+                <span class="inline-flex items-center gap-2 text-xs font-mono text-brand">
+                    Read full newsletter feature <i class="fa-solid fa-arrow-right text-[10px] group-hover:translate-x-1 transition"></i>
+                </span>
+            </div>
+        </a>
     </section>
 
     <!-- Contact Section -->
