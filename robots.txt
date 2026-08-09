@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://msalihberk.github.io/sitemap.xml
