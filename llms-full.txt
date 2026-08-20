@@ -1,0 +1,79 @@
+# Mustafa Salih Berk — Full Portfolio & Technical Knowledge Base
+
+This document contains the complete and uncompressed text representation of Mustafa Salih Berk's portfolio website for Large Language Models (LLMs), AI Agents, and Web Crawlers.
+
+---
+
+## 1. Profile Overview
+- **Full Name:** Mustafa Salih Berk
+- **Handle:** msalihberk
+- **Title:** Software Engineer • Cybersecurity Researcher • AI Enthusiast
+- **Current Institution:** Student at Baykar Science High School (Baykar Fen Lisesi)
+- **Primary Focus:** Building secure software, researching intelligent systems, and developing future-proof technologies with a focus on systems programming, artificial intelligence, and cybersecurity.
+- **Academic Path:** Expanding domain knowledge through Harvard's CS50x coursework, autonomous system dynamics, and security analysis of complex software ecosystems.
+
+---
+
+## 2. Contact & Social Links
+- **Official Website:** https://msalihberk.github.io/
+- **Email:** msalihberk@proton.me
+- **GitHub:** https://github.com/msalihberk
+- **Medium Technical Articles:** https://medium.com/@msalihberk
+- **X (Twitter):** https://x.com/msalihberkk
+- **Wikidata Entity:** https://www.wikidata.org/wiki/Q141128044
+
+---
+
+## 3. Core Domains
+1. **Cybersecurity:** Vulnerability research, logical bug hunting, C2 architectures, defensive software engineering.
+2. **Artificial Intelligence:** Machine learning models, LLM security, intelligent automation.
+3. **Autonomous Systems:** UAV flight control dynamics, physics-based flight simulations.
+4. **Systems Development:** Low-level programming, Python, Go, PHP (Laravel framework).
+
+---
+
+## 4. Tech Stack & Engineering Tools
+- **Programming Languages:** Python, Go, C#, PHP, JavaScript, C
+- **Frameworks & Libraries:** Laravel, Livewire, Tailwind CSS, Unity
+- **Environments & Tools:** Linux (Kubuntu, Kali Linux, WSL2), Git, JetBrains Mono, SQLite
+
+---
+
+## 5. Security Research & Vulnerability Disclosures
+
+### Gemini Security Research: Lock-Screen Bypass
+- **Program:** Google Vulnerability Reward Program (VRP)
+- **Publication:** InfoSec Write-ups (Medium)
+- **URL:** https://infosecwriteups.com/gemini-app-logical-lockscreen-bypass-9e7da290ea06
+- **Summary:** Technical analysis of a logical lock-screen bypass vulnerability discovered in the Google Gemini Android application, responsibly disclosed through Google's VRP program.
+
+---
+
+## 6. Featured Software Projects
+
+### 1. ShadowLab
+- **Repository:** https://github.com/msalihberk/ShadowLab
+- **Description:** Modular, Python-based Command-and-Control (C2) framework designed for cybersecurity research, custom socket communication, and payload management. Features encrypted communication, agent generation, and multi-agent control mechanisms.
+- **Tech Keywords:** Python, Networking, C2 Architecture, Socket Programming, Encryption
+
+### 2. Prox CLI (`prox-cli`)
+- **Repository:** https://github.com/msalihberk/prox-cli
+- **Description:** Lightweight, extensible multi-tool command-line interface (CLI) suite built with Go for developers and security workflows.
+- **Tech Keywords:** Go (Golang), CLI Tools, DevOps, Utility Engineering
+
+---
+
+## 7. Press & Media Recognition
+
+### Atıl Samancıoğlu — Monthly Student Achievements Bulletin (June 2026)
+- **URL:** https://atilsamancioglu.com/2026-haziran-ogrenci-basarilari/#:~:text=Mustafa%20Salih%20Berk
+- **Type:** Feature Spotlight (June 2026)
+- **Context:** ShadowLab was featured in prominent cybersecurity instructor Atıl Samancıoğlu's monthly student success newsletter, highlighting the architecture of the custom C2 framework, socket programming implementation, and socket/encryption techniques.
+
+#### Direct Quote from Atıl Samancıoğlu's Bulletin:
+> "Mustafa Salih'in siber güvenlikle ilgilenen öğrencilerin kesinlikle ilgisini çekecek süper bir projesi GitHub'da yayınlandı! Öncelikle belirtmeliyim ki Mustafa Salih şu anda 13 yaşında! Bu projeyi ağ protokollerini anlamak amacıyla geliştirmiş. Proje genel olarak bir control & command projesi ve içinde builder, encrypter, shell yönetimi gibi fonksiyonlar bulunuyor..."
+
+---
+
+## 8. HTML Metadata & Schema.org Graph
+For verification, the portfolio utilizes JSON-LD Graph Data conforming to Schema.org standards with `ProfilePage`, `Person`, `EducationalOrganization` (Baykar Science High School), and `WebSite` entities.
