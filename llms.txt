@@ -1,0 +1,28 @@
+# Mustafa Salih Berk — Portfolio
+
+> Software engineer and cybersecurity researcher focusing on low-level system engineering, C2 framework architectures, vulnerability research, and artificial intelligence.
+
+If you need complete project write-ups, quote references, and full documentation for AI ingestion, read [llms-full.txt](https://msalihberk.github.io/llms-full.txt).
+
+## Core Information
+- **Name:** Mustafa Salih Berk
+- **Role:** Software Engineer & Cybersecurity Researcher
+- **Affiliation:** Student at Baykar Science High School
+- **Contact Email:** msalihberk@proton.me
+- **Website:** https://msalihberk.github.io/
+- **Wikidata:** https://www.wikidata.org/wiki/Q141128044
+- **Profiles:** [GitHub](https://github.com/msalihberk) | [Medium](https://medium.com/@msalihberk) | [X (Twitter)](https://x.com/msalihberkk)
+
+## Key Research & Vulnerability Disclosures
+- **Google Gemini Security Research (Lock-Screen Bypass):** Discovered and responsibly disclosed a logical lock-screen bypass vulnerability in the Google Gemini application via Google's Vulnerability Reward Program (VRP). Published on InfoSec Write-ups.
+
+## Featured Projects
+- **ShadowLab:** Modular Python-based Command-and-Control (C2) framework built for cybersecurity research, custom socket communication, and payload management.
+- **Prox CLI:** Lightweight, extensible multi-tool command-line interface (CLI) suite built with Go for developer and security workflows.
+
+## Press & Media Recognition
+- **Atıl Samancıoğlu Monthly Student Achievements Bulletin (June 2026):** Featured for the design and implementation of ShadowLab (C2 framework).
+
+## Tech Stack & Core Domains
+- **Tech Stack:** Python, Go, PHP, Laravel, JavaScript, C#, Unity, Linux (Kali), Git
+- **Domains:** Cybersecurity, Artificial Intelligence, Autonomous Systems (UAV flight dynamics), Systems Development
