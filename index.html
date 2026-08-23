@@ -266,7 +266,7 @@
                             <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-500 opacity-70 group-hover:opacity-100 group-hover:text-brand transition shrink-0 pt-1"></i>
                         </div>
                         
-                        <p class="text-xs font-mono text-slate-400">Harvard University - CS50x</p>
+                        <p class="text-xs font-mono text-slate-400">Harvard University — CS50x</p>
                         
                         <p class="text-slate-400 text-xs leading-relaxed pt-1">
                             Algorithmic thinking, memory management in C, Web Architecture (Python, Flask, SQL), and hands-on software development principles.
@@ -274,7 +274,7 @@
                     </div>
     
                     <div class="pt-3 border-t border-borderBg/50 flex items-center justify-between">
-                        <span class="text-[11px] font-mono text-slate-500">Issued by HarvardX</span>
+                        <span class="text-[11px] font-mono text-slate-500">Issued by Harvard CS50x</span>
                         <span class="text-xs font-mono text-brand flex items-center gap-1 group-hover:translate-x-0.5 transition font-medium">
                             View Certificate <i class="fa-solid fa-chevron-right text-[10px]"></i>
                         </span>
@@ -285,27 +285,34 @@
     </section>
 
     <!-- Featured Research Section -->
-    <section id="research" class="scroll-mt-24">
-        <a href="https://infosecwriteups.com/gemini-app-logical-lockscreen-bypass-9e7da290ea06" target="_blank" rel="noopener noreferrer" class="block p-5 sm:p-6 bg-cardBg border border-borderBg rounded-xl space-y-4 hover:border-brand/50 hover:bg-slate-800/50 transition cursor-pointer group">
-            <div class="flex items-center justify-between gap-2">
-                <span class="text-[11px] sm:text-xs font-mono text-emerald-400 bg-emerald-950/50 border border-emerald-800/50 px-2.5 py-1 rounded">Vulnerability Disclosure</span>
-                <span class="text-xs text-slate-500 font-mono group-hover:text-slate-300 transition shrink-0">Google VRP</span>
-            </div>
-            <div class="space-y-2">
-                <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-brand transition flex items-center justify-between sm:justify-start gap-2">
-                    <span>Gemini Security Research: Lock-Screen Bypass</span>
-                    <i class="fa-solid fa-arrow-up-right-from-square text-xs opacity-70 sm:opacity-0 group-hover:opacity-100 transition shrink-0"></i>
-                </h3>
-                <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
-                    Technical analysis of a logical lock-screen bypass vulnerability discovered in the Google Gemini application and responsibly disclosed through Google's Vulnerability Reward Program.
-                </p>
-            </div>
-            <div>
-                <span class="inline-flex items-center gap-2 text-xs font-mono text-brand">
-                    Read full technical write-up <i class="fa-solid fa-arrow-right text-[10px] group-hover:translate-x-1 transition"></i>
-                </span>
-            </div>
-        </a>
+    <section id="research" class="space-y-4 sm:space-y-6 scroll-mt-24">
+        <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
+            <i class="fa-solid fa-flask text-brand text-sm"></i> Security Research & Analysis
+        </h2>
+
+        <div class="grid gap-4">
+            <!-- Google Gemini Lock-Screen Bypass -->
+            <a href="https://infosecwriteups.com/gemini-app-logical-lockscreen-bypass-9e7da290ea06" target="_blank" rel="noopener noreferrer" class="block p-5 sm:p-6 bg-cardBg border border-borderBg rounded-xl space-y-4 hover:border-brand/50 hover:bg-slate-800/50 transition cursor-pointer group">
+                <div class="flex items-center justify-between gap-2">
+                    <span class="text-[11px] sm:text-xs font-mono text-emerald-400 bg-emerald-950/50 border border-emerald-800/50 px-2.5 py-1 rounded">Vulnerability Disclosure</span>
+                    <span class="text-xs text-slate-500 font-mono group-hover:text-slate-300 transition shrink-0">Google VRP</span>
+                </div>
+                <div class="space-y-2">
+                    <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-brand transition flex items-center justify-between sm:justify-start gap-2">
+                        <span>Gemini Security Research: Lock-Screen Bypass</span>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-xs opacity-70 sm:opacity-0 group-hover:opacity-100 transition shrink-0"></i>
+                    </h3>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+                        Technical analysis of a logical lock-screen bypass vulnerability discovered in the Google Gemini application and responsibly disclosed through Google's Vulnerability Reward Program.
+                    </p>
+                </div>
+                <div>
+                    <span class="inline-flex items-center gap-2 text-xs font-mono text-brand">
+                        Read full technical write-up <i class="fa-solid fa-arrow-right text-[10px] group-hover:translate-x-1 transition"></i>
+                    </span>
+                </div>
+            </a>
+        </div>
     </section>
 
     <!-- Projects Grid -->
@@ -315,6 +322,44 @@
         </h2>
 
         <div class="grid md:grid-cols-2 gap-4">
+            <!-- RedPatch -->
+            <a href="https://github.com/msalihberk/redpatch" target="_blank" rel="noopener noreferrer" class="p-5 bg-cardBg border border-borderBg rounded-xl space-y-3 flex flex-col justify-between hover:border-brand/50 hover:bg-slate-800/50 transition cursor-pointer group md:col-span-2">
+                <div class="space-y-2">
+                    <div class="flex items-center justify-between">
+                        <span class="font-mono text-sm font-bold text-white group-hover:text-brand transition flex items-center gap-2">
+                            RedPatch
+                            <i class="fa-solid fa-arrow-up-right-from-square text-xs opacity-70 sm:opacity-0 group-hover:opacity-100 transition"></i>
+                        </span>
+                        <i class="fa-brands fa-github text-slate-500 group-hover:text-white transition"></i>
+                    </div>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+                        Interactive application security playground and defense simulator combining offensive exploitation with source code remediation and AI-driven patch verification (Exploit → Patch → Verify) in containerized Docker environments.
+                    </p>
+                </div>
+                <div class="flex gap-2 text-[10px] font-mono text-slate-500 pt-2 border-t border-borderBg/50">
+                    <span>Python</span> • <span>FastAPI</span> • <span>Docker</span> • <span>AI Agents</span> • <span>AppSec</span>
+                </div>
+            </a>
+
+            <!-- RedPatch Lab Source Engines -->
+            <a href="https://github.com/msalihberk/redpatch-labs" target="_blank" rel="noopener noreferrer" class="p-5 bg-cardBg border border-borderBg rounded-xl space-y-3 flex flex-col justify-between hover:border-brand/50 hover:bg-slate-800/50 transition cursor-pointer group">
+                <div class="space-y-2">
+                    <div class="flex items-center justify-between">
+                        <span class="font-mono text-sm font-bold text-white group-hover:text-brand transition flex items-center gap-2">
+                            RedPatch Labs
+                            <i class="fa-solid fa-arrow-up-right-from-square text-xs opacity-70 sm:opacity-0 group-hover:opacity-100 transition"></i>
+                        </span>
+                        <i class="fa-brands fa-github text-slate-500 group-hover:text-white transition"></i>
+                    </div>
+                    <p class="text-slate-400 text-xs leading-relaxed">
+                        Official source code and engine modules for vulnerable web scenarios powering the RedPatch platform, featuring dual-mode (Pentester & Coder) challenge environments.
+                    </p>
+                </div>
+                <div class="flex gap-2 text-[10px] font-mono text-slate-500 pt-2 border-t border-borderBg/50">
+                    <span>Docker</span> • <span>CTF Engines</span> • <span>AppSec</span> • <span>Python</span>
+                </div>
+            </a>
+
             <!-- ShadowLab -->
             <a href="https://github.com/msalihberk/ShadowLab" target="_blank" rel="noopener noreferrer" class="p-5 bg-cardBg border border-borderBg rounded-xl space-y-3 flex flex-col justify-between hover:border-brand/50 hover:bg-slate-800/50 transition cursor-pointer group">
                 <div class="space-y-2">
